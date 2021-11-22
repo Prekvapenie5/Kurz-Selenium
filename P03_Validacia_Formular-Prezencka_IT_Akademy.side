@@ -1,0 +1,116 @@
+{
+  "id": "9d06da19-f74b-416d-9cb3-d7f611f63678",
+  "version": "2.0",
+  "name": "P03_Validacia_Formular-Prezencka_IT_Akademy",
+  "url": "https://www.it-academy.sk/prezencka/",
+  "tests": [{
+    "id": "8e849776-b4f1-4c39-80e9-ba37e265965a",
+    "name": "TC_001_Vyplnit_Formular",
+    "commands": [{
+      "id": "97613b20-525e-4c49-824c-ca312b3d144a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.it-academy.sk/prezencka/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eae98d2-12c6-4cbd-a76b-80bd0a35edfc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='c704']/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Prezenčná listina')]", "xpath:innerText"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "98c2cd6b-f955-461f-bb0e-d295340c3191",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][firstname]", "name"],
+        ["css=#firstname > .error", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][firstname]']", "xpath:attributes"],
+        ["xpath=//td[@id='firstname']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Adam"
+    }, {
+      "id": "9327235c-b939-400e-bec8-f43b1c5afb16",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][lastname]", "name"],
+        ["css=#lastname > input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][lastname]']", "xpath:attributes"],
+        ["xpath=//td[@id='lastname']/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": "Šangala"
+    }, {
+      "id": "bfa1194b-90fe-46f2-8fcb-9061ded0d220",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][location]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][location]", "name"],
+        ["css=tr:nth-child(5) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][location]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[5]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "Trnava"
+    }, {
+      "id": "f50e2069-c53c-4667-8c35-acb67469f519",
+      "comment": "",
+      "command": "type",
+      "target": "name=tx_itacademyprez_itaprezencka[newPrezencka][email]",
+      "targets": [
+        ["name=tx_itacademyprez_itaprezencka[newPrezencka][email]", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='tx_itacademyprez_itaprezencka[newPrezencka][email]']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "adam@sangala.sk"
+    }, {
+      "id": "14a61801-3fd0-472c-837e-d79d0b698ffb",
+      "comment": "",
+      "command": "check",
+      "target": "css=tr:nth-child(9) input:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tx_itacademyprez_itaprezencka[sou]'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[9]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2202e45f-e2c2-41c2-9b59-665b9722fbb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button",
+      "targets": [
+        ["css=.ui-button", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//div[@id='c704']/div/form/table/tbody/tr[10]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[10]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a489fe5e-4122-4b39-b822-621177e046ec",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8e849776-b4f1-4c39-80e9-ba37e265965a"]
+  }],
+  "urls": ["https://www.it-academy.sk/prezencka/"],
+  "plugins": []
+}
