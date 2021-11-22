@@ -1,0 +1,321 @@
+{
+  "id": "3b5c0922-8fcc-41c6-a837-d2aa25801acc",
+  "version": "2.0",
+  "name": "P01_Nahranie_Testu",
+  "url": "https://opensource-demo.orangehrmlive.com/",
+  "tests": [{
+    "id": "6ab31abd-7739-4a8b-b828-95344e2a962c",
+    "name": "T001_Vyhladanie_Selenium_IDE",
+    "commands": [{
+      "id": "734242e6-fb5d-49d0-8168-9c72d6acdc32",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "1500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebf20317-3210-4aa1-9aa7-301a9b97e090",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47070f6d-d9d2-480e-bd2f-cfad0ada4d83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b959b3a-1978-47f2-be6b-115498bd43ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "243ff2db-1c00-4f98-a097-003b216c919e",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium ide"
+    }, {
+      "id": "48f9b386-aab9-4ea3-9580-ff4795ef0c69",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "68803232-601c-45d2-bc8e-82c09c03e5f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jNVrwc > div:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.jNVrwc > div:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE · Open source record and playback test ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "276714da-366f-486d-85f0-b731884e92d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Docs",
+      "targets": [
+        ["linkText=Docs", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/selenium-ide/docs/en/introduction/getting-started')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Docs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c5033b27-0bce-4d62-aac8-ee653732a215",
+    "name": "T002_Google-Kalkulacka",
+    "commands": [{
+      "id": "3dcaa471-abfa-420a-8480-5f72950a8a3f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20a870d5-b3f0-4971-aacc-06b2b41cf383",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e57cdd0-2b63-4ae6-80af-f86688128a5e",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "calc"
+    }, {
+      "id": "6198329c-9314-41e9-83b1-f40847e411db",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e6397caa-a888-4e32-b18c-49355d20ddc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[3]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "826dde08-8970-442b-9868-c1561e178fe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .mF5fo > .MEdqYd",
+      "targets": [
+        ["css=tr:nth-child(5) .mF5fo > .MEdqYd", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "249fc9b1-e59b-4f68-af8d-2e4e2bc60f2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(3) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(3) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0163edee-1fb3-4927-b3bf-ba6c74ebd645",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0a2f09-ac03-457c-82d3-e78936dc92f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=cwos",
+      "targets": [
+        ["id=cwos", "id"],
+        ["css=#cwos", "css:finder"],
+        ["xpath=//span[@id='cwos']", "xpath:attributes"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "52e4fea8-3375-4992-8f76-74ed62c60a44",
+    "name": "T003_HR_IS_Prihlasenie_Odhlasenie",
+    "commands": [{
+      "id": "60dbd979-0099-429a-9c05-603de0e677de",
+      "comment": "",
+      "command": "open",
+      "target": "https://opensource-demo.orangehrmlive.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "486afa31-e492-4fc0-9693-0ba7b887452e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8f83742-0c27-40d1-aa2e-cc1a7f34929f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divUsername > .form-hint",
+      "targets": [
+        ["css=#divUsername > .form-hint", "css:finder"],
+        ["xpath=//div[@id='divUsername']/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1c5290a-3dce-458a-a38f-265cb8b49793",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUsername",
+      "targets": [
+        ["id=txtUsername", "id"],
+        ["name=txtUsername", "name"],
+        ["css=#txtUsername", "css:finder"],
+        ["xpath=//input[@id='txtUsername']", "xpath:attributes"],
+        ["xpath=//div[@id='divUsername']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "a7f3e4e1-bbb7-421a-afab-1e0c6ef77d6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18961aa-924c-4026-90b4-dae8c59ff9e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "881b0394-89f4-4290-b4a2-90e2a8b1ccf6",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogin",
+      "targets": [
+        ["id=btnLogin", "id"],
+        ["name=Submit", "name"],
+        ["css=#btnLogin", "css:finder"],
+        ["xpath=//input[@id='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='divLoginButton']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38df8c3c-fa24-449e-bd40-f3552edde12d",
+      "comment": "",
+      "command": "click",
+      "target": "id=welcome",
+      "targets": [
+        ["id=welcome", "id"],
+        ["linkText=Welcome Paul", "linkText"],
+        ["css=#welcome", "css:finder"],
+        ["xpath=//a[contains(text(),'Welcome Paul')]", "xpath:link"],
+        ["xpath=//a[@id='welcome']", "xpath:attributes"],
+        ["xpath=//div[@id='branding']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Welcome Paul')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82971c1a-d43d-47bb-afba-1ccc712182cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=#welcome-menu li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='welcome-menu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/auth/logout')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ae7ac65c-1966-4225-a3f6-c6f3e676e9e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6ab31abd-7739-4a8b-b828-95344e2a962c"]
+  }],
+  "urls": ["https://www.google.sk/", "https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}
